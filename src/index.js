@@ -6,7 +6,7 @@ const app = express();
 
 const weatherData = require('../utils/weatherData');
 
-const port = process.env.Port || 3000
+const port = process.env.Port || 3300
 
 const publicStaticDirPath = path.join(__dirname,'../public')
 
